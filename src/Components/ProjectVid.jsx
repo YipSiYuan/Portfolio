@@ -1,31 +1,28 @@
 const ProjectVid = () => {
   return (
-    <div className="fixed inset-0 -z-10 overflow-hidden">
+    <section className="relative h-screen w-full overflow-hidden">
+
+      {/* VIDEO BACKGROUND */}
       <video
         src="/assets/mp4/beta_Gameplay.mp4"
         autoPlay
         muted
         loop
         playsInline
-        className="w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover"
       />
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/70 pointer-events-none" />
+      {/* DARK OVERLAY */}
+      <div className="absolute inset-0 bg-black/50" />
 
-       {/* Centered text */}
-      <div className="absolute inset-0 flex items-center justify-center z-10">
-        <div className="text-center text-neutral-100">
-          <h1 className="text-6xl font-bold" style={{fontFamily: "jaro"}}>All my projects</h1>
-          <p className="mt-4 text-xl opacity-80 text-neutral-300">
-            This are all the projects that I have worked on, from game development to web development, and more. Feel free to explore and check out my work!
-          </p>
-        </div>
+      {/* CENTER TEXT (optional) */}
+      <div className="relative z-10 flex items-center justify-center h-full">
+        <h1 className="text-6xl text-white font-bold ">All my Projects</h1>
       </div>
 
       {/* bottom fade */}
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-56 bg-gradient-to-b from-transparent to-[#030412]" />
-    </div>
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-200 bg-gradient-to-b from-transparent to-[#030412]" />
+    </section>
   );
 };
 
