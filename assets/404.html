@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      // GitHub Pages SPA redirect for React Router
+      var repo = "Portfolio";
+      var path = window.location.pathname;
+      var newUrl =
+        window.location.origin +
+        "/" +
+        repo +
+        "/?redirect=" +
+        encodeURIComponent(path.replace("/" + repo, ""));
+      window.location.replace(newUrl);
+    </script>
+  </head>
+  <body></body>
+</html>
