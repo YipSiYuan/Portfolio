@@ -24,7 +24,7 @@ export function MindWarriorCard() {
         </CardItem>
         <CardItem className="w-full mt-4" translateZ={120}>
           <img
-            src ="/assets/Projectimage/Artbook_cover_resize.png"
+            src ="assets/ProjectImage/Artbook_cover_resize.png"
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"

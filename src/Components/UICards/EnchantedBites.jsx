@@ -25,7 +25,7 @@ export function EnchantedBites() {
         </CardItem>
         <CardItem className="w-full mt-4" translateZ={120}>
           <img
-            src="/assets/ProjectImage/Whytfisthishere.png"
+            src="assets/ProjectImage/Whytfisthishere.png"
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"

@@ -14,28 +14,28 @@ const ParallaxBackground = () => {
     <div className="relative h-screen overflow-y-hidden">
         <div className="absolute inset-0 w-full h-screen -z-50" 
         style={{
-            backgroundImage: "url(/assets/ParallexBG/bg_2_0004_Layer-3.png)",
+            backgroundImage: "url(assets/ParallexBG/bg_2_0004_Layer-3.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             }}/>
         
         <motion.div className="absolute inset-0 -z-40"
         style={{
-            backgroundImage: "url(/assets/ParallexBG/bg_2_0003_Layer--2.png)",
+            backgroundImage: "url(assets/ParallexBG/bg_2_0003_Layer--2.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain3Y,
             }}/>
         <motion.div className="absolute inset-0 -z-30"
         style={{
-            backgroundImage: "url(/assets/ParallexBG/bg_2_0002_Layer-1.png)",
+            backgroundImage: "url(assets/ParallexBG/bg_2_0002_Layer-1.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y:planetsX,
             }}/>
         <motion.div className="absolute inset-0 -z-20"
         style={{
-            backgroundImage: "url(/assets/ParallexBG/bg_2_0001_Layer-0.png)",
+            backgroundImage: "url(assets/ParallexBG/bg_2_0001_Layer-0.png)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain2Y,

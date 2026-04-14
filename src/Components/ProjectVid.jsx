@@ -4,7 +4,7 @@ const ProjectVid = () => {
 
       {/* VIDEO BACKGROUND */}
       <video
-        src="/assets/mp4/beta_Gameplay.mp4"
+        src="assets/mp4/beta_Gameplay.mp4"
         autoPlay
         muted
         loop

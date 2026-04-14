@@ -2,25 +2,25 @@ const Skills = () => {
   const skills = [
     {
       id: "unity",
-      img: "/assets/unity-icon.png",
+      img: "assets/unity-icon.png",
       desc:
         "I have been using Unity for over 2 years, creating various projects ranging from 2D platformers to 3D games. I am proficient in C# and have experience with Unity's built-in tools and features, such as the Animator, Particle System, and UI system. I have also worked with third-party plugins like Cinemachine and ProBuilder to enhance my projects.",
     },
     {
       id: "csharp",
-      img: "/assets/c.png",
+      img: "assets/c.png",
       desc:
         "My main programming language is C# due to my extensive experience with Unity. I have used C# for scripting game mechanics, creating custom editor tools, and implementing gameplay features. I am comfortable with object-oriented programming principles and have a strong understanding of C# syntax and best practices.",
     },
     {
       id: "premiere",
-      img: "/assets/Premiere.png",
+      img: "assets/Premiere.png",
       desc:
         "Premiere Pro is my go-to software for video editing, and I have been using it for over 3 years. I am proficient in various editing techniques, including color grading, transitions, and audio editing. I have created multiple trailers and promotional videos for my projects using Premiere Pro.",
     },
     {
       id: "html",
-      img: "/assets/HTML5_logo_and_wordmark.svg.png",
+      img: "assets/HTML5_logo_and_wordmark.svg.png",
       desc:
         "I have a solid understanding of HTML and have used it for creating websites and web applications. I am familiar with semantic HTML, responsive design principles, and accessibility best practices. I have also worked with CSS and JavaScript to enhance the functionality and appearance of my web projects.",
     },

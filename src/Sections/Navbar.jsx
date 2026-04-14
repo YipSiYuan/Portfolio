@@ -1,19 +1,20 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
 
 function Navigation(){
     return <ul className="nav-ul">
         <li className="nav-li">
-            <a className="nav-link" href="/">Home</a>
+            <Link to="/home">Home</Link>
         </li>
         <li className="nav-li">
-            <a className="nav-link" href="#about">About</a>
+            <Link to="/home">About</Link>
         </li>
         <li className="nav-li">
-            <a className="nav-link" href="/Portfolio/projects">Projects</a>
+            <Link to="/projects">Projects</Link>
         </li>
         <li className="nav-li">
-            <a className="nav-link" href="#contact">Contact</a>
+            <Link to="/home">Contact</Link>
         </li>
     </ul>
 }
@@ -23,10 +24,9 @@ const Navbar = () => {
     
 <div className="mx-auto c-space max-w-8xl">
     <div className="flex items-center justify-between py-2 sm:py-0">
-        <a 
-            href = "/" className="text-2xl font-bold transition-colors text-neutral-400 hover:text-white">
+        <Link to="/home">
                 Yip Si Yuan
-        </a>
+        </Link>
         <button onClick={() => setIsOpen(!isOpen)} className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden">
             <img src={isOpen?"assets/close.svg":'assets/menu.svg'} className="w-10 h-10"/>
         </button>
